@@ -57,7 +57,7 @@ data through _context_: both have the access to the same `this` object. So
 calling `this.props` in the `render` method will give us access to the same data
 as calling `this.props` in the `displayTodos` method.
 
-We could also have written the same functionality all inside the `render`
+We could also have written same functionality all inside the `render`
 method:
 
 ```jsx
